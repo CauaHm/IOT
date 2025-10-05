@@ -78,8 +78,6 @@ IoT MQTT Panel com um painel tipo "Text Log".
 
 ⚙️ Lógica de Controle
 
-O 
-
 Cliente de Lógica e Controle (o script Python) é responsável por manter a temperatura da estufa dentro de um intervalo ideal, que foi definido entre 18∘C e 25∘C.
 
     Se a temperatura for menor que 18∘C ou maior que 25∘C: o sistema publica o comando "LIGAR" (indicando que o sistema de ventilação, ou um sistema de aquecimento, deve ser ativado para corrigir a temperatura).
